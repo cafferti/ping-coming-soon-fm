@@ -1,0 +1,139 @@
+body{
+    font-size:20px ;
+    font-family: libre franklin;
+    box-sizing: border-box;
+     display: flex;
+    flex-direction: column;
+    justify-content:  center;
+    justify-content: center;
+    align-items: center;
+    
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content:  center;
+    justify-content: center;
+    align-items: center;
+    width: 814px;
+}
+    
+p{
+    font-family: libre franklin;
+
+
+}
+main .soon{
+    margin-top: 30px;
+    font-weight: 600;
+    color:hsl(0, 0%, 59%) ;
+    letter-spacing: 1.5px;
+}
+main .soon span{
+    font-weight: 700;
+    color:  hsl(209, 33%, 12%);
+    letter-spacing: initial;
+
+}
+main .subscribe{
+    padding: 7px;
+    font-size: 13px;
+    font-weight: 300;
+    color: hsl(209, 33%, 12%);
+}
+main .chart{
+    width: 80%;
+    padding: 20px;
+    margin-top: 20px;
+}
+form{
+    width: 80%;
+    display: flex;
+    margin-top: 20px;
+}
+
+form input{
+  height: 35px;
+  border-radius: 25px;
+  width: 65%;
+  border:solid 1.5px hsl(223, 100%, 88%);
+
+}
+#address{
+    padding-left: 20px;
+
+}
+::placeholder{
+    color: hsl(223, 100%, 88%) ;
+}
+
+form button{
+    cursor: pointer;
+    font-family: libre franklin;
+    height:40px ;
+    border-radius: 25px;
+    width: 35%;
+    margin-left: 10px;
+    padding: 7px;
+    background-color:hsl(223, 87%, 63%);
+    color: white;
+    border:solid 1.5px hsl(223, 100%, 88%) ;
+    box-shadow: 1px 3px 4px 1px hsl(223, 100%, 88%);
+}
+footer{
+    font-size: 15px;
+    color:  hsl(0, 0%, 59%);
+    margin-top: 50px;
+  display: flex;  
+  flex-direction: column;
+  justify-content: space-around;
+  justify-items:center ;
+  align-items: center;
+  height: 100px;
+  
+  
+}
+footer .socials span{
+    color: hsl(223, 87%, 63%);
+    height: 15px;
+    padding: 10px;
+    margin: 7px;
+    border: solid 1.5px hsl(224, 59%, 69%);
+    border-radius: 50%;
+    
+    
+}
+footer .socials span:hover{
+    background-color: hsl(223, 87%, 63%);
+    color: white;
+
+}
+a{
+    text-decoration: none;
+}
+@media(max-width: 1000px) {
+
+
+form{
+    display: inline-block;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    align-items: center
+}
+form input{
+    margin-left: 50px;
+}
+form button{
+    width: 72%;
+    margin-left:50px ;
+    margin-top: 10px;
+}
+main .chart{
+    width: 30%;
+    margin-right: 10px;
+}
+main:first-child{
+    margin-top: 50px;
+}
+}
